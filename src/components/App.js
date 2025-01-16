@@ -3,7 +3,7 @@ import './../styles/App.css';
 
 
 const App = () => {
-	const [value, setValue] = React.useState("#Testingggg");
+	const [value, setValue] = React.useState("");
 	const [content, setContent] = React.useState("");
 
 	  React.useEffect(() => {
