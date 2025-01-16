@@ -21,7 +21,7 @@ const App = () => {
 
 
   return (
-    <div style={{ display: "flex", gap: "20px", padding: "20px" }}>
+    <div style={{ display: "flex", gap: "20px", padding: "20px" }} className={"app"}>
 
 			<textarea 
 				id="input" 
@@ -39,6 +39,7 @@ const App = () => {
 			></textarea>
 			<div 
 				id="preview"
+				className={"preview"}
 		        style={{
 		          width: "45%",
 		          height: "300px",
